@@ -141,3 +141,38 @@ body{
     color: white;
     font-size: 18px;
   }
+  
+/* Responsive layout */
+@media (max-widht: 786px) {
+  .first-section{
+    min-height: 50vh;
+  }
+  .heading-div{
+    text-align: center;
+    padding: 10px 0;
+  }
+  .second-heading{
+    font-size: 32px;
+  }
+  .first-section-light h2{
+    font-size: 24px;
+  }
+  .first-section-light h2 span{
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .about{
+    flex-direction: column;
+  }
+  h2{
+    font-size: 32px;
+  }
+  .content > h1{
+    font-size: 32px;
+  }
+  .about-me > h1{
+    font-size: 32px;
+  }
+
+  
+}
