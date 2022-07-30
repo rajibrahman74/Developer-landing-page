@@ -1,0 +1,143 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* commont style start */
+html,
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+    font-weight: 300;
+    line-height: 1.4;
+}
+/* first section style start */
+.first-section{
+    background-image: url(./developer.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.heading-div{
+    color: white;
+    margin: 0 auto;
+    max-width: 900px;
+    padding-top: 50px;
+    padding-left: 16px;
+}
+.first-heading{
+    font-size: 72px;
+    font-weight: 400;
+}
+.second-heading{
+    font-size: 72px;
+    font-weight: 400;
+    margin-top: -20px;
+}
+
+/* first section light style start */
+.first-section-light{
+    background-color: black;
+    padding: 1px;
+}
+.first-section-light h2{
+    font-size: 72px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+}
+.first-section-light > h2 > span{
+    font-size: 90px;
+    font-weight: 400;
+}
+
+/* Box section style start */
+.work {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+  }
+  .grid_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+    transition: 0.2s ease-in-out;
+  }
+  .card_content {
+    padding: 20px;
+  }
+  .card_content h3 {
+    margin-bottom: 10px;
+  }
+
+  /* about and contact me section style start */
+  .about{
+    display: flex;
+  }
+  .contact{
+    width: 50%;
+    height: 378px;
+    background-color: rgb(54, 54, 149);
+  }
+  .content{
+    padding: 30px;
+    color: white;
+  }
+
+  /* same style  */
+  .content > h1{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75px;
+  }
+  .content > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+  }
+
+  .about-me{
+    width: 50%;
+    height: 378px;
+    background-color: rgb(161, 113, 105);
+  }
+
+  /* bottom section style start */
+  .bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #000000;
+    padding: 20px;
+  }
+  .contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-info a{
+    color: white;
+    font-size: 25px;
+    margin: 0px 10px;
+    margin-bottom: 10px;
+  }
+  .bottom p{
+    color: white;
+    font-size: 18px;
+  }
