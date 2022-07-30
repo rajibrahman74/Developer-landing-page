@@ -14,7 +14,7 @@ body{
 }
 /* first section style start */
 .first-section{
-    background-image: url(./developer.png);
+    background-image: url(images/developer.png);
     height: 100%;
     background-size: cover;
     background-position: center;
